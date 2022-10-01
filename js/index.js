@@ -10,9 +10,9 @@ $("#login-button").click(function (event) {
   var userName = document.getElementById("userName").value;
   var pwd = document.getElementById("pwd").value;
   //修改密码请改此处
-  console.log(userName)
-  console.log(pwd)
-  if (userName == "万老师" && pwd == "1208") {
+//   console.log(userName)
+//   console.log(pwd)
+  if (userName == "中国" && pwd == "1001") {
     event.preventDefault();
     $("form").fadeOut(500);
     $(".wrapper").addClass("form-success");
